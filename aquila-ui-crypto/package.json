@@ -1,0 +1,28 @@
+{
+	"name": "aquila-ui-crypto",
+	"version": "3.1.2",
+	"description": "Aquila Project - decentralize the world - Data storage, communications, web hosting, decentralized trading, complete infrastructure for the future blockchain-based Internet",
+	"keywords": [
+		"UNCIA",
+		"AQUILA",
+		"DECENTRALIZED"
+	],
+	"homepage": "https://aquilanetwork",
+	"main": "api.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Aquila/aquila-ui.git",
+		"directory": "aquila-ui-crypto"
+	},
+	"author": "AQUILA <admin@aquilanetwork>",
+	"license": "GPL-3.0",
+	"dependencies": {
+		"asmcrypto.js": "2.3.2",
+		"buffer": "6.0.3",
+		"jssha": "3.3.0",
+		"lodash": "4.17.21"
+	},
+	"engines": {
+		"node": ">=18.12.1"
+	}
+}
