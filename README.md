@@ -39,7 +39,7 @@ Verify your installtion with node --version <br/>
 - ``` If you have an older installation of npm, please do not forget to update that with npm update -g. ```
 
 Clone the main UI repo
- - ``` git clone https://github.com/Aquila/aquila-ui.git ```
+ - ``` git clone https://github.com/AquilaNetwork/aquila-ui.git ```
 
 Installation and linking
 ------------------------
