@@ -1,0 +1,121 @@
+Arguments: 
+  /home/rafal/.nvm/versions/node/v18.12.1/bin/node /home/rafal/.nvm/versions/node/v18.12.1/bin/yarn --cwd aquila-ui-core install
+
+PATH: 
+  /home/rafal/.nvm/versions/node/v18.12.1/bin:/home/rafal/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.12.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@qortal%2frollup-plugin-web-worker-loader: Not found
+      at params.callback [as _callback] (/home/rafal/.nvm/versions/node/v18.12.1/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at self.callback (/home/rafal/.nvm/versions/node/v18.12.1/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (/home/rafal/.nvm/versions/node/v18.12.1/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (/home/rafal/.nvm/versions/node/v18.12.1/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+  	"name": "aquila-ui-core",
+  	"version": "3.1.2",
+  	"description": "Aquila Project - decentralize the world - Data storage, communications, web hosting, decentralized trading, complete infrastructure for the future blockchain-based Internet",
+  	"keywords": [
+  		"UNCIA",
+  		"AQUILA",
+  		"DECENTRALIZED"
+  	],
+  	"homepage": "https://aquilanetwork",
+  	"main": "ui-core.js",
+  	"repository": {
+  		"type": "git",
+  		"url": "https://github.com/Aquila/aquila-ui.git",
+  		"directory": "aquila-ui-core"
+  	},
+  	"author": "AQUILA <admin@aquilanetwork>",
+  	"license": "GPL-3.0",
+  	"dependencies": {
+  		"@hapi/hapi": "21.3.0",
+  		"@hapi/inert": "7.0.1",
+  		"sass": "1.58.3"
+  	},
+  	"devDependencies": {
+  		"@babel/core": "7.21.0",
+  		"@material/mwc-button": "0.27.0",
+  		"@material/mwc-checkbox": "0.27.0",
+  		"@material/mwc-dialog": "0.27.0",
+  		"@material/mwc-drawer": "0.27.0",
+  		"@material/mwc-fab": "0.27.0",
+  		"@material/mwc-formfield": "0.27.0",
+  		"@material/mwc-icon": "0.27.0",
+  		"@material/mwc-icon-button": "0.27.0",
+  		"@material/mwc-list": "0.27.0",
+  		"@material/mwc-select": "0.27.0",
+  		"@material/mwc-snackbar": "0.27.0",
+  		"@material/mwc-textfield": "0.27.0",
+  		"@polymer/app-layout": "3.1.0",
+  		"@polymer/iron-collapse": "3.0.1",
+  		"@polymer/iron-flex-layout": "3.0.1",
+  		"@polymer/iron-icons": "3.0.1",
+  		"@polymer/iron-pages": "3.0.1",
+  		"@polymer/paper-button": "3.0.1",
+  		"@polymer/paper-checkbox": "3.1.0",
+  		"@polymer/paper-dialog": "3.0.1",
+  		"@polymer/paper-dropdown-menu": "3.2.0",
+  		"@polymer/paper-icon-button": "3.0.2",
+  		"@polymer/paper-input": "3.2.1",
+  		"@polymer/paper-item": "3.0.1",
+  		"@polymer/paper-listbox": "3.0.1",
+  		"@polymer/paper-progress": "3.0.1",
+  		"@polymer/paper-ripple": "3.0.2",
+  		"@polymer/paper-spinner": "3.0.2",
+  		"@polymer/paper-toast": "3.0.1",
+  		"@polymer/paper-tooltip": "3.0.1",
+  		"@aquila/rollup-plugin-web-worker-loader": "1.6.4",
+  		"@rollup/plugin-alias": "4.0.3",
+  		"@rollup/plugin-babel": "6.0.3",
+  		"@rollup/plugin-commonjs": "24.0.1",
+  		"@rollup/plugin-node-resolve": "15.0.1",
+  		"@rollup/plugin-replace": "5.0.2",
+  		"@rollup/plugin-terser": "0.4.0",
+  		"@vaadin/button": "23.3.8",
+  		"@vaadin/grid": "23.3.8",
+  		"@vaadin/icons": "23.3.8",
+  		"@vaadin/password-field": "23.3.8",
+  		"@vaadin/tooltip": "23.3.8",
+  		"asmcrypto.js": "2.3.2",
+  		"bcryptjs": "2.4.3",
+  		"epml": "0.3.3",
+  		"file-saver": "2.0.5",
+  		"lit": "2.6.1",
+  		"lit-translate": "2.0.1",
+  		"localforage": "1.10.0",
+  		"pwa-helpers": "0.9.1",
+  		"redux": "4.2.1",
+  		"redux-thunk": "2.4.2",
+  		"rollup": "3.19.0",
+  		"rollup-plugin-node-globals": "1.4.0",
+  		"rollup-plugin-progress": "1.1.2",
+  		"rollup-plugin-scss": "3.0.0"
+  	},
+  	"engines": {
+  		"node": ">=18.12.1"
+  	}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
