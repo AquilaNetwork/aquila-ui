@@ -201,7 +201,7 @@ class SettingsPage extends connect(store)(LitElement) {
             name: 'Local Node',
             protocol: 'http',
             domain: '127.0.0.1',
-            port: 12391,
+            port: 13032,
             enableManagement: true
         }
 
@@ -209,7 +209,7 @@ class SettingsPage extends connect(store)(LitElement) {
             name: 'Local Testnet',
             protocol: 'http',
             domain: '127.0.0.1',
-            port: 62391,
+            port: 61392,
             enableManagement: true
         }
 
